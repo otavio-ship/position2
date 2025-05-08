@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: white;
+  position: relative;
+}
+
+/* Retângulo vermelho à esquerda */
+.left-column {
+  width: 120px;
+  height: 250px;
+  background-color: #b52c2c;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.top-bar {
+  width: 80px;
+  height: 25px;
+  background-color: #0fff2a;
+  align-self: center;
+}
+
+.bottom-bar {
+  width: 80px;
+  height: 25px;
+  background-color: #1e0d0d;
+  align-self: center;
+}
+
+/* Retângulo verde no topo direito */
+.top-right {
+  width: 160px;
+  height: 40px;
+  background-color: #38a44b;
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.top-right .black-bar {
+  width: 60px;
+  height: 20px;
+  background-color: #1e0d0d;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Retângulo azul no canto inferior direito */
+.bottom-right {
+  width: 100px;
+  height: 100px;
+  background-color: #003cff;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+.bottom-right .black-bar {
+  width: 60px;
+  height: 20px;
+  background-color: #1e0d0d;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
